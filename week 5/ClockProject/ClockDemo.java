@@ -39,7 +39,7 @@ public class ClockDemo {
 
         // Printing both objects using toString() Method
         System.out.println();
-        System.out.println("First Clock: "+firstClock);
+        System.out.println("First Clock (after adding second clock): "+firstClock);
         System.out.println("Second Clock: "+secondClock);
 
         // Initializing with a third object thirdClock

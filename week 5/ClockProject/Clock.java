@@ -85,7 +85,7 @@ public class Clock {
     public void calculateTime(int currentSeconds, Clock obj) {
         obj.setHours(currentSeconds / 3600);
         currentSeconds -= obj.getHours()*3600;
-        obj.setHours(getHours() % 24);
+        obj.setHours(obj.getHours() % 24);
         obj.setMinutes(currentSeconds / 60);
         currentSeconds -= obj.getMinutes()*60;
         obj.setSeconds(currentSeconds);
